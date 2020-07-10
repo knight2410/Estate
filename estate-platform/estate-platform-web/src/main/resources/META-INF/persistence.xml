@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.estate.entity.BaseEntity</class>
+        <class>com.estate.entity.DistrictEntity</class>
+        <class>com.estate.entity.BuildingEntity</class>
+        <class>com.estate.entity.UserEntity</class>
+        <class>com.estate.entity.RoleEntity</class>
+        <class>com.estate.entity.CustomerEntity</class>
+        <class>com.estate.entity.CustomerServiceEntity</class>
+        <class>com.estate.entity.ContractEntity</class>
+        <class>com.estate.entity.UnitPriceEntity</class>
+        <class>com.estate.entity.ConsumeEntity</class>
+        <class>com.estate.entity.PaymentEntity</class>
+    </persistence-unit>
+</persistence>
