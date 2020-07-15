@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/templates/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+footer {
+    margin: 0;
+}
+
+/*
+custom
+*/
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.content {
+    padding-bottom: 60px; /* heigh of the footer */
+}
+
+.footer {
+    width: 100%;
+    bottom: 20px;
+    height: 60px;
+}
+
+.dataTableImg {
+    width: 100px;
+    height: 100px;
+}
+
+.help-block{
+    color: red !important;
+}

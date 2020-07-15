@@ -1,7 +1,5 @@
 package com.estate.config;
 
-import org.springframework.context.annotation.Configuration;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,56 +19,55 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories(basePackages = { "com.estate.repository" })
+@EnableJpaRepositories(basePackages = {"com.estate.repository"})
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-public class JPAConfig
-{
-        @Autowired
-        private Environment environment;
+public class JPAConfig {
+    @Autowired
+    private Environment environment;
 
-        @Bean
-        public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
-            LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-            em.setDataSource(dataSource());
-            em.setPersistenceUnitName("persistence-data");
-            JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
-            em.setJpaVendorAdapter(vendorAdapter);
-            em.setJpaProperties(additionalProperties());
-            return em;
-        }
+    @Bean
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+        LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
+        em.setDataSource(dataSource());
+        em.setPersistenceUnitName("persistence-data");
+        JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
+        em.setJpaVendorAdapter(vendorAdapter);
+        em.setJpaProperties(additionalProperties());
+        return em;
+    }
 
-        @Bean
-        JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
-            JpaTransactionManager transactionManager = new JpaTransactionManager();
-            transactionManager.setEntityManagerFactory(entityManagerFactory);
-            return transactionManager;
-        }
+    @Bean
+    JpaTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+        JpaTransactionManager transactionManager = new JpaTransactionManager();
+        transactionManager.setEntityManagerFactory(entityManagerFactory);
+        return transactionManager;
+    }
 
-        @Bean
-        public PersistenceExceptionTranslationPostProcessor exceptionTranslation() {
-            return new PersistenceExceptionTranslationPostProcessor();
-        }
+    @Bean
+    public PersistenceExceptionTranslationPostProcessor exceptionTranslation() {
+        return new PersistenceExceptionTranslationPostProcessor();
+    }
 
-        @Bean
-        public DataSource dataSource() {
-            DriverManagerDataSource dataSource = new DriverManagerDataSource();
-            dataSource.setDriverClassName(environment.getProperty("jdbc.driverClassName"));
-            dataSource.setUrl(environment.getProperty("jdbc.url"));
-            dataSource.setUsername(environment.getProperty("jdbc.username"));
-            dataSource.setPassword(environment.getProperty("jdbc.password"));
-            return dataSource;
-        }
+    @Bean
+    public DataSource dataSource() {
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName(environment.getProperty("jdbc.driverClassName"));
+        dataSource.setUrl(environment.getProperty("jdbc.url"));
+        dataSource.setUsername(environment.getProperty("jdbc.username"));
+        dataSource.setPassword(environment.getProperty("jdbc.password"));
+        return dataSource;
+    }
 
-        Properties additionalProperties() {
-            Properties properties = new Properties();
-            properties.setProperty("hibernate.dialect", environment.getProperty("hibernate.dialect"));
-            properties.setProperty("hibernate.show_sql", environment.getProperty("hibernate.show_sql"));
-            properties.setProperty("hibernate.format_sql", environment.getProperty("hibernate.format_sql"));
-            properties.setProperty("hibernate.default_schema", environment.getProperty("hibernate.default_schema"));
-  //          properties.setProperty("hibernate.hbm2ddl.auto", "create");
-           // properties.setProperty("hibernate.hbm2ddl.auto", "update");
-            properties.setProperty("hibernate.hbm2ddl.auto", "none");
-            return properties;
-        }
+    Properties additionalProperties() {
+        Properties properties = new Properties();
+        properties.setProperty("hibernate.dialect", environment.getProperty("hibernate.dialect"));
+        properties.setProperty("hibernate.show_sql", environment.getProperty("hibernate.show_sql"));
+        properties.setProperty("hibernate.format_sql", environment.getProperty("hibernate.format_sql"));
+        properties.setProperty("hibernate.default_schema", environment.getProperty("hibernate.default_schema"));
+        //properties.setProperty("hibernate.hbm2ddl.auto", "create");
+        properties.setProperty("hibernate.hbm2ddl.auto", "update");
+        //properties.setProperty("hibernate.hbm2ddl.auto", "none");
+        return properties;
+    }
 }
