@@ -32,7 +32,7 @@ public class WebController {
     public ModelAndView getBuildings(@ModelAttribute(SystemConstant.MODEL) BuildingDTO model,
                                      HttpServletRequest request) {
         ModelAndView mav = new ModelAndView("home-user");
-       // DisplayTagUtils.initSearchBean(request, model);
+        // DisplayTagUtils.initSearchBean(request, model);
         model.setMaxPageItems(9);
         model.setCheckBuildingInContract(0);
         List<BuildingDTO> buildings = buildingService.searchBuildingWebHome(model, false);
@@ -44,14 +44,14 @@ public class WebController {
         mav.addObject("areaMin", areaMin());
         mav.addObject("areaMax", areaMax());
         //initMessageResponse(mav, request);
-        model.setTotalPages((int) Math.ceil((float)model.getTotalItems()/model.getMaxPageItems()));
+        model.setTotalPages((int) Math.ceil((float) model.getTotalItems() / model.getMaxPageItems()));
         mav.addObject(SystemConstant.MODEL, model);
         return mav;
     }
 
     @RequestMapping(value = "/web-detail", method = RequestMethod.GET)
     public ModelAndView detailHomeUser(@ModelAttribute(SystemConstant.MODEL) BuildingDTO model,
-                                     HttpServletRequest request) {
+                                       HttpServletRequest request) {
         ModelAndView mav = new ModelAndView("detail-home-user");
         model.setMaxPageItems(9);
         model.setCheckBuildingInContract(0);
@@ -64,11 +64,10 @@ public class WebController {
         mav.addObject("areaMin", areaMin());
         mav.addObject("areaMax", areaMax());
         //initMessageResponse(mav, request);
-        model.setTotalPages((int) Math.ceil((float)model.getTotalItems()/model.getMaxPageItems()));
+        model.setTotalPages((int) Math.ceil((float) model.getTotalItems() / model.getMaxPageItems()));
         mav.addObject(SystemConstant.MODEL, model);
         return mav;
     }
-
 
 
     private Map<Integer, String> getPriceBuildingMin() {

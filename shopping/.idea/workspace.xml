@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shopping-web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2274ea33-5624-447c-a1ad-948dc9347f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shopping-web/src/main/webapp/WEB-INF/context/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate-platform/estate-platform-core/src/main/java/com/estate/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estate-platform/estate-platform-core/src/main/java/com/estate/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate-platform/estate-platform-core/src/main/java/com/estate/controller/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estate-platform/estate-platform-core/src/main/java/com/estate/controller/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-core/src/main/java/com/huyvt/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-core/src/main/java/com/huyvt/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-web/shopping-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-web/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web/src/main/webapp/WEB-INF/context/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ekWxb1LVK8dCuYt53mqiDyuERe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shopping-web/src/main/webapp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Estate\shopping\shopping-web\src\main\webapp\WEB-INF\context" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Estate\shopping\shopping-web\src\main\webapp" />
+      <recent name="G:\Estate\shopping\shopping-web\src\main\resources" />
+      <recent name="G:\Estate\shopping\shopping-core\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shopping-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shopping" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shopping_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61710" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shopping-web:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2274ea33-5624-447c-a1ad-948dc9347f02" name="Default Changelist" comment="" />
+      <created>1594866318197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594866318197</updated>
+      <workItem from="1594866321777" duration="1376000" />
+      <workItem from="1594871791665" duration="2983000" />
+      <workItem from="1594879039597" duration="4190000" />
+      <workItem from="1594883400509" duration="1797000" />
+      <workItem from="1594885365806" duration="12000" />
+      <workItem from="1594893458067" duration="1418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594894195981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594894195981" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1594868117933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594868117933" />
+    <state width="1186" height="528" key="GridCell.Tab.0.bottom" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.0.center" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.0.left" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.0.right" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.1.bottom" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state width="1186" height="528" key="GridCell.Tab.1.center" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.1.left" timestamp="1594894835450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594894835450" />
+    <state width="1186" height="528" key="GridCell.Tab.1.right" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state width="1186" height="528" key="GridCell.Tab.2.bottom" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state width="1186" height="528" key="GridCell.Tab.2.center" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state width="1186" height="528" key="GridCell.Tab.2.left" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state width="1186" height="528" key="GridCell.Tab.2.right" timestamp="1594894835451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1186" height="528" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1594894835451" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1594883949627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1594883949627" />
+    <state x="65" y="25" key="new project wizard" timestamp="1594868120073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="25" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594868120073" />
+    <state x="363" y="47" key="spring file set editor" timestamp="1594874446049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="47" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1594874446049" />
+  </component>
+</project>
